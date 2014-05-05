@@ -1,0 +1,18 @@
+---
+Name: mysite
+After: 'framework/*','cms/*'
+---
+# YAML configuration for SilverStripe
+# See http://doc.silverstripe.org/framework/en/topics/configuration
+# Caution: Indentation through two spaces, not tabs
+SSViewer:
+  theme: 'nvd'
+SiteConfig:
+  extensions:
+    - SiteConfigExtras
+Director:
+  rules:
+    'thoi-gian//$Action': 'Section_Controller'
+    'tag/$Tag': 'Article_Controller'
+FilesystemPublisher:
+  static_base_url: http://localhost/nvd

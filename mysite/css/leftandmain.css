@@ -1,0 +1,6 @@
+.class-Section a .jstree-pageicon, .class-Article a .jstree-pageicon{
+	background: url(../img/icons/page_green.png) no-repeat top left;
+}
+.class-Section.status-addedtodraft a .jstree-pageicon, .class-Article.status-addedtodraft a .jstree-pageicon, .class-Article.status-deletedonlive a .jstree-pageicon{
+	background: url(../img/icons/page_red.png) no-repeat top left;
+}
